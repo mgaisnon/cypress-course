@@ -3,6 +3,7 @@
 context('Component lightbox', () => {
     beforeEach(() => {
         cy.visit('../../app/lightbox.html');
+        
     })
 
     it('Open lightbox when click img', () => {
